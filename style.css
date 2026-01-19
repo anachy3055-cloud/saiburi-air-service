@@ -1,0 +1,150 @@
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* ===== HEADER ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #0b5ed7;
+  color: white;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.phone {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ===== HERO ===== */
+.hero {
+  padding: 30px;
+  background: linear-gradient(#e3f2fd, #ffffff);
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.main {
+  background: #ff9800;
+}
+
+/* ===== SERVICES ===== */
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 15px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,.08);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.card p {
+  margin-top: 8px;
+  color: #555;
+}
+
+/* ===== PRICE ===== */
+.price {
+  background: #fff3cd;
+  margin: 15px;
+  padding: 18px;
+  border-radius: 16px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.price b {
+  color: #d63384;
+}
+
+/* ===== FACEBOOK ===== */
+.fb-section {
+  background: #ffffff;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.fb-section a {
+  display: block;
+  margin-top: 10px;
+  padding: 12px;
+  background: #1877f2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin: 80px 0 90px;
+}
+
+/* ===== BOTTOM BAR ===== */
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  box-shadow: 0 -2px 10px rgba(0,0,0,.15);
+}
+
+.bottom-bar a {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.call {
+  background: #28a745;
+}
+
+.line {
+  background: #00c300;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+}
