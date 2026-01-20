@@ -149,3 +149,16 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* เส้นคั่นรูปหิมะ */
+.snow-row {
+  text-align: center;
+  margin: 16px 0;
+}
+
+.snow-row img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
