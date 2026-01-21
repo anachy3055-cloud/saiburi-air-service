@@ -166,12 +166,3 @@ footer {
   font-weight: 700;   /* ตัวหนา */
   cursor: pointer;   /* เมาส์เป็นรูปมือ */
   }
-/* Floating Messenger Button */
-.messenger-float {
-  position: fixed;
-  bottom: 20px;      /* ระยะจากด้านล่าง */
-  right: 20px;       /* ระยะจากด้านขวา */
-  width: 60px;
-  height: 60px;
-  z-index: 9999;
-}
