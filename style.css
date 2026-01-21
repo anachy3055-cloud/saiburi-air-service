@@ -166,12 +166,14 @@ footer {
   font-weight: 700;   /* ตัวหนา */
   cursor: pointer;   /* เมาส์เป็นรูปมือ */
   }
+
 .technician-row {
-  margin: 15px auto;
+  margin: 20px auto;
   text-align: center;
 }
 
 .technician-row img {
   max-width: 100%;
+  height: auto;
   border-radius: 12px;
-}
+  }
