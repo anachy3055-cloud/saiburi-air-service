@@ -150,30 +150,14 @@ footer {
   }
 }
 /* เส้นคั่นรูปหิมะ */
-.snow-row {
+.technician-row {
   text-align: center;
   margin: 16px 0;
 }
 
-.snow-row img {
+.technician-row img {
   width: 100%;
   max-width: 360px;
   height: auto;
   display: block;
   margin: 0 auto;
-
-  .biz-link {
-  font-weight: 700;   /* ตัวหนา */
-  cursor: pointer;   /* เมาส์เป็นรูปมือ */
-  }
-
-.technician-row {
-  margin: 20px auto;
-  text-align: center;
-}
-
-.technician-row img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  }
