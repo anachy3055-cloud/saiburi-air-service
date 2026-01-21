@@ -161,3 +161,8 @@ footer {
   height: auto;
   display: block;
   margin: 0 auto;
+
+  .biz-link {
+  font-weight: 700;   /* ตัวหนา */
+  cursor: pointer;   /* เมาส์เป็นรูปมือ */
+  }
