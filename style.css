@@ -161,3 +161,14 @@ footer {
   height: auto;
   display: block;
   margin: 0 auto;
+
+  .biz-link {
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+
+.biz-link:visited {
+  color: inherit;
+  text-decoration: none;
+}
