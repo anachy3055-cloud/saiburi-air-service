@@ -161,4 +161,10 @@ footer {
   height: auto;
   display: block;
   margin: 0 auto;
+.biz-link {
+  font-weight: 700;        /* ตัวหนา */
+  color: inherit;         /* ใช้สีเดิม */
+  text-decoration: none;  /* ไม่ขีดเส้น */
+}
+  
 }
