@@ -178,3 +178,22 @@ footer {
 .faq-btn:hover {
   background: #084298;
 }
+
+.oneclick-phone,
+.oneclick-line {
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.oneclick-phone {
+  background: #198754; /* เขียวโทร */
+}
+
+.oneclick-line {
+  background: #06c755; /* เขียว LINE */
+}
